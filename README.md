@@ -1,11 +1,12 @@
-Flickd AI Hackathon 
-# Overview 
+Flickd AI Hackathon — Full Competition 
+Document 
+Overview 
 Flickd is reimagining how Gen Z shops — through scroll-native, video-first, vibe-led 
 discovery. Our shopping journey doesn’t start at a search bar — it starts with a Reel. We 
 want to automate the tagging of products and the classification of fashion "vibes" from these 
 short videos. This hackathon invites AI/ML engineers to build the backbone of this intelligent 
 system. 
-This  provides a comprehensive breakdown of the 7-day hackathon competition to 
+This document provides a comprehensive breakdown of the 7-day hackathon competition to 
 hire Flickd’s first ML engineer. It covers: 
 ● Objective and context 
 ● Scope and deliverables 
@@ -59,46 +60,4 @@ transformer model) to classify the video into 1–3 vibes from this list:
 You can use spaCy, HuggingFace Transformers (e.g., DistilBERT), and your own logic to 
 assign vibes. 
 4. Final Output 
-Your system should return a JSON output per video: 
-{ 
-  "video_id": "abc123", 
-  "vibes": ["Coquette", "Evening"], 
-  "products": [ 
-    { 
-      "type": "dress", 
-      "color": "black", 
-      "match_type": "similar", 
-      "matched_product_id": "prod_456", 
-      "confidence": 0.84 
-    } 
-  ] 
-} 
- 
-Dataset 
-We will provide: 
-● 10 sample creator videos (~5–15s each) 
-● 1 CSV file with 200 product entries: 
-○ Product name 
-○ Shopify image URL (CDN) 
-○ Product ID 
-● A vibe taxonomy list (static list of supported vibes) 
-● A small caption set (if needed) 
- 
-Tech Stack Recommendations 
-You can use: 
-● YOLOv8 via ultralytics Python package 
-● CLIP (OpenAI or HuggingFace variant) 
-● FAISS for fast embedding matching 
-● spaCy or HuggingFace Transformers for NLP 
-● Whisper or AssemblyAI for audio-to-text (optional) 
-● FastAPI or Flask to expose your API (if applicable) 
-Use Cursor IDE for speed, AI suggestions, and auto-complete assistance. Not mandatory, 
-but encouraged. 
- 
 
-● You must submit within 7 days from when you receive access. 
-● All your code is yours, unless you join Flickd, after which it will be productionized. 
-Apply Now 
-Send your name, GitHub, and LinkedIn to: d@flickd.app Subject line: “Flickd AI Hackathon” 
-We'll reply within 12 hours with access links, dataset, and onboarding instructions. 
-Feel free to shoot queries to d@flickd.app 

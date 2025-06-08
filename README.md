@@ -60,6 +60,6 @@ Build a fully working MVP of Flickd’s **Smart Tagging & Vibe Classification En
 
 Watch the full demo walkthrough showcasing the pipeline from video input to final JSON output:
 
-[![Watch Demo](https://img.youtube.com/vi/your-video-id/0.jpg)](https://www.loom.com/share/your-demo-link-here)
+[![Watch Demo](https://github.com/Bhavyasree2003/Flickd-_Hacathon-/blob/main/demo3%20(1).mp4)]
 
-**Demo Link:** https://www.loom.com/share/your-demo-link-here
+**Demo Link:** https://github.com/Bhavyasree2003/Flickd-_Hacathon-/blob/main/demo3%20(1).mp4
